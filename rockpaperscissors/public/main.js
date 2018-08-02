@@ -81,6 +81,19 @@ const p2buttonClickEvent = () => {
 
   player2choice = newValue
 
+  //determine who won
+  if (player1choice === "Rock"){
+    console.log("Tie!")
+  }
+
+  if (player1choice === "Paper"){
+    console.log("Player 1 Wins!")
+  }
+
+  if (player1choice === "Scissors"){
+    console.log("Player 2 Wins!")
+  }
+
 }
 
 // //Player 2 Paper
@@ -99,7 +112,15 @@ const p2buttonClickEvent2 = () => {
 
   //determine who won
   if (player1choice === "Rock"){
-    console.log("player 2 won!")
+    console.log("Player 2 won!")
+  }
+
+  if (player1choice === "Paper"){
+    console.log("Tie!")
+  }
+
+  if (player1choice === "Scissors"){
+    console.log("Player 1 Wins!")
   }
 
 }
